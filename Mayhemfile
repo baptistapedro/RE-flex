@@ -1,0 +1,7 @@
+project: re-flex
+target: re-flex
+
+# List of commands used to test the target
+cmds:
+  - cmd: /RE-flex/examples/cvt2utf -t UTF-16 @@
+    env: {}
